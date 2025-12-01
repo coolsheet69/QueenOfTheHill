@@ -2,30 +2,59 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="\rage-icon-logo.svg" />
-    <meta name="viewport"
-  content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, shrink-to-fit=no">
-  <style>
-  html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden !important;
-  }
 
-  #app {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden !important;
-  }
-</style>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/rage-icon-logo.svg" />
+
+    <!-- Viewport -->
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, shrink-to-fit=no">
+
+    <!-- ============================= -->
+    <!--  OPEN GRAPH SHARE META TAGS   -->
+    <!-- ============================= -->
+    <meta property="og:title" content="Queen of the Hill — RAGE Protocol Game on Base" />
+    <meta property="og:description" content="Battle for the throne. Winner takes the RAGE pot. 5% burned every round." />
+    <meta property="og:image" content="https://queenofthehill.xyz/Queen-share-image.png" />
+    <meta property="og:url" content="https://queenofthehill.xyz" />
+    <meta property="og:type" content="website" />
+
+    <!-- ============================= -->
+    <!--       TWITTER SHARE TAGS      -->
+    <!-- ============================= -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Queen of the Hill — RAGE Protocol Game on Base" />
+    <meta name="twitter:description" content="Battle for the throne. Winner takes the RAGE pot. 5% burned every round." />
+    <meta name="twitter:image" content="https://queenofthehill.xyz/Queen-share-image.png" />
+
+    <!-- SEO -->
+    <meta name="description" content="Queen of the Hill — A decentralized on-chain game where players battle using RAGE. Winner takes the pot. 5% burned. Built on Base." />
+    <meta name="theme-color" content="#000000" />
+
+    <!-- Prevent mobile pinch zoom from messing layout -->
+    <meta name="HandheldFriendly" content="true" />
+
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden !important;
+      }
+
+      #app {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden !important;
+      }
+    </style>
 
     <title>👑 Queen of the Hill 👑</title>
-    <script type="module" crossorigin src="/assets/index-DgwqYoeM.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BTYs_oIU.css">
   </head>
+
   <body>
     <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
